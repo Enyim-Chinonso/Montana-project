@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* background-image: url(../Images/Montana\ alternative\ 2.jpg); */
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.3)), url(../Images/Montana\ alternative\ 2.jpg); 
+}
+
+/* Start of Global styling */
+.flex {
+  display: flex;
+}
+/* End of Global styling  */
+
+
+/* Start of navbar styling */
+nav{
+  margin-top: 20px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+}
+.nav-container .nav-left .div-flex {
+  gap: 10px;
+}
+.nav-container .nav-left .div-flex a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+.nav-right{
+    gap: 15px;
+}
+
+button {
+  padding: 7px;
+  background-color: rgb(0, 157, 255);
+  color: white;
+  border: transparent; 
+  transition-duration: 0.7s;
+}
+button:hover {
+  background-color: white;
+  color: blue;
+}
+/* End of navbar styling */
+
+
+.Montana {
+  font-size: 80px;
+  margin-top: 7%;
+}
+.Montana span p:last-child{
+  font-size: 20px;
+  margin-top: -15px;
+} 
